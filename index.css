@@ -12,6 +12,9 @@
     justify-content: center;
     align-items: center;
 }
+#c{
+    color: #1eff00;
+}
 .vitb{
     display: flex;
     justify-content: center;
