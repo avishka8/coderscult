@@ -21,9 +21,22 @@
     background-color: white;
     color:black;
     font-family: 'Times New Roman', Times, serif;
+    height:50px;
+    width: 200px;
+    font-size: 18px;
+    border:none;
+    border-radius: 10px;
 }
 #join{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top:100px;
 }
+
+.join:hover{
+    background-color: #1eff00;
+    border: 1px solid white;
+    transition:0.5s;
+}
+
