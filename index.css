@@ -1,104 +1,111 @@
-body{
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: "liga" 1, "calt" 1;
+}
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: InterVariable, sans-serif;
+    }
+}
+
+body {
     background-color: #202020;
 }
-.hero{
-    height:80vh;
+.hero {
+    height: 80vh;
 }
-.title{
-    color:white;
-    font-family: 'Times New Roman', Times, serif;
+.title {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
     margin-top: 200px;
-    font-size:30px;
-
+    font-size: 30px;
 }
-.cc{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#c{
-    color: #1eff00;
-}
-.vitb{
+.cc {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.join{
+
+#c {
+    color: #1eff00;
+}
+.vitb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.join {
     background-color: white;
-    color:black;
-    font-family: 'Times New Roman', Times, serif;
-    height:50px;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    height: 50px;
     width: 200px;
     font-size: 18px;
-    border:none;
+    border: none;
     border-radius: 10px;
     cursor: pointer;
 }
-#join{
+#join {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:100px;
+    margin-top: 100px;
 }
 
-.join:hover{
+.join:hover {
     background-color: #1eff00;
     border: 1px solid white;
-    transition:0.5s;
+    transition: 0.5s;
 }
-.form{
+.form {
     background-color: #404040;
-    width:250px;
-    margin:auto;
+    width: 250px;
+    margin: auto;
     border-radius: 10px;
-    padding:50px;
-    margin-top:100px;
-    margin-bottom:100px;
-    color:white;
-    
+    padding: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: white;
 }
-.su{
+.su {
     width: 100%;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
 }
-input{
-    height:30px;
-    width:100%;
-    border-radius:5px;
-    margin:0;
+input {
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 0;
     text-indent: 10px;
     outline: none;
-    border:none;
+    border: none;
 }
-input:hover{
+input:hover {
     background-color: #1eff00;
     transition: 0.5s;
 }
 
-.sub{
+.sub {
     background-color: white;
-    color:black;
-    font-family: 'Times New Roman', Times, serif;
-    height:35px;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    height: 35px;
     width: 100px;
     font-size: 18px;
-    border:none;
+    border: none;
     border-radius: 10px;
     cursor: pointer;
     display: block;
-    margin:auto;
+    margin: auto;
 }
-.sub:hover{
+.sub:hover {
     background-color: #1eff00;
     border: 1px solid white;
-    transition:0.5s;
-}    
-.about{
-    color:white;
-    
+    transition: 0.5s;
+}
+.about {
+    color: white;
 }
 /*.points{
     display:grid;
@@ -110,50 +117,51 @@ input:hover{
     justify-content: space-evenly;
     grid-template-columns: repeat(2,minmax(0,1fr));
 }*/
-.p1{
-    padding:10px;
-    width:200px;
+
+.p1 {
+    padding: 10px;
+    width: 200px;
     background-color: aliceblue;
     border-radius: 10px;
-    color:#202020;
+    color: #202020;
 }
-.p2{
-    padding:10px;
-    width:200px;
+.p2 {
+    padding: 10px;
+    width: 200px;
     background-color: aliceblue;
     border-radius: 10px;
-    color:#202020;
+    color: #202020;
 }
-.p3{
-    padding:10px;
-    width:200px;
+.p3 {
+    padding: 10px;
+    width: 200px;
     background-color: aliceblue;
     border-radius: 10px;
-    color:#202020;
+    color: #202020;
 }
-.p4{
-    padding:10px;
-    width:200px;
+.p4 {
+    padding: 10px;
+    width: 200px;
     background-color: aliceblue;
     border-radius: 10px;
-    color:#202020;
+    color: #202020;
 }
-.p5{
-    padding:10px;
-    width:200px;
+.p5 {
+    padding: 10px;
+    width: 200px;
     background-color: aliceblue;
     border-radius: 10px;
-    color:#202020;
+    color: #202020;
 }
-.points1{
-    display:flex;
+.points1 {
+    display: flex;
     align-items: center;
     justify-content: center;
     justify-content: space-evenly;
     text-align: center;
     align-items: stretch;
 }
-.points2{
+.points2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -162,4 +170,3 @@ input:hover{
     align-items: stretch;
     margin-top: 60px;
 }
-
