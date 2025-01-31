@@ -96,3 +96,72 @@ input:hover{
     border: 1px solid white;
     transition:0.5s;
 }    
+.about{
+    color:white;
+    
+}
+/*.points{
+    display:grid;
+    grid-column: 3;
+    grid-row: 2;
+    gap:5px;
+    width:100%;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+}*/
+.p1{
+    padding:10px;
+    width:200px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    color:#202020;
+}
+.p2{
+    padding:10px;
+    width:200px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    color:#202020;
+}
+.p3{
+    padding:10px;
+    width:200px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    color:#202020;
+}
+.p4{
+    padding:10px;
+    width:200px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    color:#202020;
+}
+.p5{
+    padding:10px;
+    width:200px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    color:#202020;
+}
+.points{
+}
+.points1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: stretch;
+}
+.points2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: stretch;
+    margin-top: 30px;
+}
+
