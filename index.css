@@ -152,6 +152,7 @@ input:hover{
     justify-content: space-evenly;
     text-align: center;
     align-items: stretch;
+    margin-top: 60px;
 }
 .points2{
     display: flex;
