@@ -1,0 +1,28 @@
+body{
+    background-color: #202020;
+}
+
+.bg{
+    display:flex;
+    align-items: center;
+    justify-content: right;
+    height:150px;
+    width:100%;
+    background-color: #404040;
+    border: solid 0px black;
+    border-radius:20px;
+    color:#404040;
+}
+
+
+.d{
+    color:aliceblue;
+    margin-right:40px;
+    font-size:55px;
+}
+.sidebar{
+    height:100%;
+    width:120px;
+    background-color: #1eff00;
+    margin-left:none;
+}
