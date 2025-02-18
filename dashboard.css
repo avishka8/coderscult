@@ -1,5 +1,5 @@
 body{
-    background-color: #202020;
+    background-color: #000000;
 }
 
 .bg{
@@ -7,7 +7,8 @@ body{
     align-items: center;
     justify-content: right;
     height:150px;
-    width:100%;
+    width:80%;
+    float:right;
     background-color: #404040;
     border: solid 0px black;
     border-radius:20px;
@@ -20,9 +21,29 @@ body{
     margin-right:40px;
     font-size:55px;
 }
+
+
+.arrange{
+    display:flex;
+    justify-content: space-between;
+}
+
 .sidebar{
     height:100%;
     width:120px;
     background-color: #1eff00;
     margin-left:none;
+}
+
+
+.profile{
+    display:flex;
+    align-items: center;
+    justify-content: right;
+    height:700px;
+    width:300px;
+    background-color: #404040;
+    border: solid 0px black;
+    border-radius:20px;
+    color:aliceblue;
 }
