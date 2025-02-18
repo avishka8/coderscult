@@ -1,13 +1,17 @@
+@font-face {
+    font-family: flecha;
+    src: url(C:\Users\admin\Downloads\flecha-font-family-1739755086-0.otf);
+  }
+  
 body{
-    background-color: #202020;
+    background-color: #000000;
 }
 .hero{
     height:80vh;
 }
 .title{
     color:white;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 200px;
+    font-family:flecha;
     font-size:30px;
 
 }
@@ -15,6 +19,16 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
+}
+
+.white-line{
+    text-align: center;
+    margin:auto;
+    width:fit-content;
+    margin-top: 200px;
+    padding: 10px 50px;
+    border: solid 1px rgb(114, 115, 116);
+    border-radius:15px;
 }
 
 #c{
